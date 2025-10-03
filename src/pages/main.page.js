@@ -2,7 +2,7 @@ export class MainPage {
 	constructor(page) {
 		this.page = page;
 		this.signupButton = page.getByRole('link', { name: 'Sign up' });
-		this.loginButton = page.getByRole('link', { name: ' Login' });
+		this.loginButton = page.getByRole('link', { name: 'Login' });
 	}
 
 	async open() {

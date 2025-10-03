@@ -1,8 +1,8 @@
 export class YourFeedPage {
 	constructor(page) {
 		this.page = page;
-		this.homeButton = page.getByRole('link', { name: ' Home' });
-		this.createArticleButton = page.getByRole('link', { name: ' New Article' });
+		this.homeButton = page.getByRole('link', { name: 'Home' });
+		this.createArticleButton = page.getByRole('link', { name: 'New Article' });
 	}
 
 	async createArticle () {
